@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'thunderregular';
+    src: url('thunder-hc-webfont.woff2') format('woff2'),
+         url('thunder-hc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'thunderlight_lc';
+    src: url('thunder-lightlc-webfont.woff2') format('woff2'),
+         url('thunder-lightlc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'thundermedium_hc';
+    src: url('thunder-mediumhc-webfont.woff2') format('woff2'),
+         url('thunder-mediumhc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

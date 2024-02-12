@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'neue_regradebold';
+    src: url('neue_regrade_bold-webfont.woff2') format('woff2'),
+         url('neue_regrade_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

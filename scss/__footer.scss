@@ -1,0 +1,54 @@
+.contacto{
+    width: 100%;
+    height: auto;
+    background-image: url($background-footer);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0rem 4rem 0rem;
+    @include respond-to_min(1025px){
+        padding: 8rem 0rem 8rem 0rem;
+    }
+
+    h3{
+        font-family: $font-thunder-regular;
+        font-size: 4rem;
+        color: $amarillo-5;
+        letter-spacing: 8px;
+        text-align: center;
+        @include respond-to_min(1025px){
+            font-size: 8rem;
+        }
+    }
+
+    &-info-container{
+        height: 6rem;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        @include respond-to_min(1025px){
+            gap: 4rem;
+        }
+        margin-top: 2rem;
+
+        .icon{
+            font-size: 3rem;
+            color: #fff;
+            @include respond-to_min(1025px){
+                font-size: 4rem;
+                transition: font-size .2s ease;
+            }
+        }
+
+        .contacto-info{
+            @include respond-to_min(1025px){
+                a:hover .icon{
+                    font-size: 4.5rem;
+                }
+            }
+        }
+    }
+}
